@@ -10,7 +10,9 @@ CaCl2是开放项目CaOCl（CA开放中文词法分析工具包）重要组成�
 #### CaCl2的统计数据：
 [CaCl2开放状态统计](https://github.com/limccn/cacl2/blob/master/STATUES.md)
 
+
 ## 二、快速开始
+
 ### 1.Clone或按需下载CaCl2词库
 ```shell
 git clone https://github.com/limccn/cacl2.git
@@ -28,6 +30,7 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 
 ### 3.测试和开始使用CaCl2，Enjoy！
 
+
 ## 三、词库开源计划
 ### 1.已开源
 |  No. | 词库名称 | 词条数量 | 公开时间 | 当前版本 | 格式 | 下载地址 |
@@ -38,13 +41,12 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 | 490100 | 非银金融-证券 | 10000 | 2021-02-01 | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
 | 490200 | 非银金融-保险 | 10000 | 2021-02-01 | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
 
-### 计划开源
+### 2.计划开源
 |  No.  |  词库名称 | 词条数量 | 计划公开时间 | 当前版本  | 格式 | 下载地址 |
 | :----:  | :----  |  :----:  | :----: | :----: | :----: | :----: |
 | 490300 | 非银金融-多元金融 | 10000 | 2021-02-01 | v0.2 | txt | [480300.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480300.zip) |
 
-
-### 预览版
+### 3.预览版
 |  No.  |  词库名称 | 收录数量 | 格式 | 下载地址 |
 | :----:  | :----  |  :----:  | :----: | :----: |
 | 110000 | 农林牧渔-通用 | 10000 | txt | [110000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/110000.zip) |
@@ -76,8 +78,10 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 | 720000 | 传媒-通用 | 10000 | txt | [720000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/720000.zip) |
 | 730000 | 通信-通用 | 10000 | txt | [730000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/730000.zip) |
 
-#### 详细的开放状态请参考以下链接地址
+
+#### **详细的开放状态请参考以下链接地址
 [CaCl2开放状态统计](https://github.com/limccn/cacl2/blob/master/STATUES.md)
+
 
 ## 四、使用效果
 ### 1.工具测试对比
@@ -137,6 +141,7 @@ CaCl2开放的词库，语料，模型等资料沿用[Creative Commons BY-NC-SA 
 
 ![CC BY-NC-SA](https://github.com/limccn/cacl2/blob/master/docs/images/cc_by_nc_sa.png)
 
+
 ## 七、贡献和贡献者
 ### 1.如何贡献？
 #### 1.1 Fork或Star我们的CaCl2
@@ -145,10 +150,13 @@ CaCl2开放的词库，语料，模型等资料沿用[Creative Commons BY-NC-SA 
 ### 2.贡献者
 @CaoWJ
 
+
 ## 八、常见问题FAQ
+
 
 ## 九、其他说明
 CaCl2的部分内容来自互联网公开的信息和数据资料，CaCl2不保证数据的完整性和正确性，不构成任何建议。
+
 
 ## 十、参考资料
 1.[申银万国研究院行业分类标准.2014](https://github.com/limccn/cacl2/blob/master/references/申银万国研究院行业分类标准.pdf)
