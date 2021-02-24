@@ -68,11 +68,11 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 ### 1.已开源
 |  No. | 词库名称 | 词条数量 | 公开时间 | 当前版本 | 格式 | 下载地址 |
 | :----: | :---- | :----:  | :----: | :----: | :----: | :----: |
-| 480000 | 银行-通用 | 10000 | 2021-02-01 | v0.2 | txt  | [480000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480000.zip) |
-| 480100 | 银行-银行 | 10000 | 2021-02-01 | v0.2 | txt | [480100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480100.zip) |
-| 490000 | 非银金融-通用 | 10000 | 2021-02-01 | v0.2 | txt | [490000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490000.zip) |
-| 490100 | 非银金融-证券 | 10000 | 2021-02-01 | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
-| 490200 | 非银金融-保险 | 10000 | 2021-02-01 | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
+| 480000 | 银行-通用 | 40612 | 2021-02 | v0.2 | txt  | [480000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480000.zip) |
+| 480100 | 银行-银行 | 224433 | 2021-02 | v0.2 | txt | [480100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480100.zip) |
+| 490000 | 非银金融-通用 | 341235 | 2021-02 | v0.2 | txt | [490000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490000.zip) |
+| 490100 | 非银金融-证券 | 311121 | 2021-02 | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
+| 490200 | 非银金融-保险 | 31020 | 2021-02 | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
 
 ### 2.计划开源
 |  No.  |  词库名称 | 词条数量 | 计划公开时间 | 当前版本  | 格式 | 下载地址 |
