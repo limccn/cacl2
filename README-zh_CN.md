@@ -1,5 +1,7 @@
 # CaCl2
 
+多语言版本: [简体中文](https://github.com/limccn/cacl2/blob/master/README-zh_CN.md),[English](https://github.com/limccn/cacl2/blob/master/README.md)
+
 ## 一、CaCl2 简介
 CaCl2（CaCl2: Chinese Lexicon）中文名称：CA中文语言词库，源于某国内金融行业NLP项目，通过分析既有语料获得海量词条数据，同时按金融行业标准进行词条编目和分类，在自然语言处理NLP过程中，可以用于分词，关键词提取、内容摘要，实体识别等用途。
 
@@ -7,15 +9,33 @@ CaCl2项目目标在于向互联网提供行业性的、完整的、准确的的
 
 CaCl2是开放项目CaOCl（CA开放中文词法分析工具包）重要组成部分。
 
-#### CaCl2的统计数据：
-[CaCl2开放状态统计](https://github.com/limccn/cacl2/blob/master/STATUES.md)
+## 统计数据
+
+#### 1.词库
+
+|  时间 |  总词条数 | 候选词条数 | 已公开词条数 | 预览版词条数 |
+| :----: | :----: |  :----: | :----: | :----: | 
+| 2021-01-01 | 10000 | 2 | 20 | 0 | 0 |
+
+#### 2.行业字典数
+|  时间 | 一级行业词典数 | 二级行业词典数 | 已公开  | 预览版 | 未公开  | 
+| :----: | :----: |  :----: | :----: | :----: | :----: |
+| 2021-01-01 | 28 | 240 | 20 | 24 | 0 |
+
+**详细统计状态，请参考链接：[CaCl2开放状态统计](https://github.com/limccn/cacl2/blob/master/STATUES-zh_CN.md)
+
 
 
 ## 二、快速开始
 
 ### 1.Clone或按需下载CaCl2词库
+Clone
 ```shell
 git clone https://github.com/limccn/cacl2.git
+```
+下载
+```shell
+wget https://github.com/limccn/cacl2/blob/master/archive/v0.2/[put dictionary code here].zip
 ```
 
 ### 2.导入和配置词库
@@ -28,10 +48,23 @@ dict_name = '480000.txt'
 jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 ```
 
+#### 2.2 在 [IK Analyzer](https://code.google.com/archive/p/ik-analyzer/)使用示例
+
+```xml
+<properties>   
+  <entry key="ext_dict">480000.txt;480100.txt;</entry>  
+</properties> 
+```
+
 ### 3.测试和开始使用CaCl2，Enjoy！
+```python
+# do python scripts
+```
+```shell
+# do shell scripts
+```
 
-
-## 三、词库开源计划
+## 三、词库开源进度表
 ### 1.已开源
 |  No. | 词库名称 | 词条数量 | 公开时间 | 当前版本 | 格式 | 下载地址 |
 | :----: | :---- | :----:  | :----: | :----: | :----: | :----: |
@@ -46,7 +79,7 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 | :----:  | :----  |  :----:  | :----: | :----: | :----: | :----: |
 | 490300 | 非银金融-多元金融 | 10000 | 2021-02-01 | v0.2 | txt | [480300.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480300.zip) |
 
-### 3.预览版
+### 3.技术预览版
 |  No.  |  词库名称 | 收录数量 | 格式 | 下载地址 |
 | :----:  | :----  |  :----:  | :----: | :----: |
 | 110000 | 农林牧渔-通用 | 10000 | txt | [110000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/110000.zip) |
@@ -79,9 +112,7 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 | 730000 | 通信-通用 | 10000 | txt | [730000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/730000.zip) |
 
 
-#### **详细的开放状态请参考以下链接地址
-[CaCl2开放状态统计](https://github.com/limccn/cacl2/blob/master/STATUES.md)
-
+**详细的开放状态，请参考链接：[CaCl2开放状态统计](https://github.com/limccn/cacl2/blob/master/STATUES-zh_CN.md)
 
 ## 四、使用效果
 ### 1.工具测试对比
@@ -114,8 +145,8 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 | v0.2.21.01 | monthly | 2021-02-01 | XXXX |
 | v0.2.20.12 | monthly | 2021-01-01 | XXXX |
 | v0.2.20.11 | monthly | 2020-12-01 | XXXX |
-#### **历史自动发布版本请参考以下链接地址
-[链接地址](http://)
+
+**历史自动发布版本，请参考链接 [链接地址](http://)
 
 ## 六、License 许可证
 ### 1.开源软件许可证
@@ -143,6 +174,7 @@ CaCl2开放的词库，语料，模型等资料沿用[Creative Commons BY-NC-SA 
 
 
 ## 七、贡献和贡献者
+感谢所有CaCl2贡献者的努力，我们欢迎所有愿意参与并贡献CaCl2项目的贡献者
 ### 1.如何贡献？
 #### 1.1 Fork或Star我们的CaCl2
 #### 1.2 在Github上参与CaCl2社区讨论
@@ -150,13 +182,11 @@ CaCl2开放的词库，语料，模型等资料沿用[Creative Commons BY-NC-SA 
 ### 2.贡献者
 @CaoWJ
 
-
-## 八、常见问题FAQ
-
+## 八、常见问题
 
 ## 九、其他说明
 CaCl2的部分内容来自互联网公开的信息和数据资料，CaCl2不保证数据的完整性和正确性，不构成任何建议。
-
+作为贡献者，我们没有持有本文提及的相关证券，与本文提及的相关公司没有任何关联关系。
 
 ## 十、参考资料
 1.[申银万国研究院行业分类标准.2014](https://github.com/limccn/cacl2/blob/master/references/申银万国研究院行业分类标准.pdf)
