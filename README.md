@@ -76,17 +76,16 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 ### Released
 |  Code | Name | Entries | Date | Version | Format | Download |
 | :----: | :---- | :----:  | :----: | :----: | :----: | :----: |
-
-| 480000 | Banking-Common | 10000 | 2021-02-01 | v0.2 | txt  | [480000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480000.zip) |
-| 480100 | Banking-Bank | 10000 | 2021-02-01 | v0.2 | txt | [480100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480100.zip) |
-| 490000 | Financials-Common | 10000 | 2021-02-01 | v0.2 | txt | [490000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490000.zip) |
-| 490100 | Financials-Securities | 10000 | 2021-02-01 | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
-| 490200 | Financials-Insurance | 10000 | 2021-02-01 | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
+| 480000 | Banking-Common | 40612 | 2021-02 | v0.2 | txt  | [480000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480000.zip) |
+| 480100 | Banking-Bank | 224433 | 2021-02 | v0.2 | txt | [480100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480100.zip) |
+| 490000 | Financials-Common | 341235 | 2021-02 | v0.2 | txt | [490000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490000.zip) |
+| 490100 | Financials-Securities | 311121 | 2021-02 | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
+| 490200 | Financials-Insurance | 31020 | 2021-02 | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
 
 ### Scheduled Release
 |  Code  |  Name | Entries | Schedule | Version  | Format | Download |
 | :----:  | :----  |  :----:  | :----: | :----: | :----: | :----: |
-| 490300 | Financials-Others | 10000 | 2Q 2021 | v0.2 | txt | [480300.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480300.zip) |
+| 490300 | Financials-Others | 10000 | 2Q 2021 | v0.2 | txt | [490300.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490300.zip) |
 
 ### Technical Preview
 |  Code  |  Name | Entries | Format | Download |
