@@ -77,7 +77,7 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 ### 2.计划开源
 |  No.  |  词库名称 | 词条数量 | 计划公开时间 | 当前版本  | 格式 | 下载地址 |
 | :----:  | :----  |  :----:  | :----: | :----: | :----: | :----: |
-| 490300 | 非银金融-多元金融 | 10000 | 2021-02-01 | v0.2 | txt | [480300.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480300.zip) |
+| 490300 | 非银金融-多元金融 | 10000 | 2021-02-01 | v0.2 | txt | [490300.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490300.zip) |
 
 ### 3.技术预览版
 |  No.  |  词库名称 | 收录数量 | 格式 | 下载地址 |
