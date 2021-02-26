@@ -34,7 +34,7 @@ CaCl2 project aims to build a consistent, complete and accurate industrial lexic
 | 2021-02-01 | Class-1 |  28  |  2 | 26 | 0 |
 | 2021-02-01 | Class-2 |  104 |  5 | 99 | 0 |
 
-**Detail Statistics data please refer to [Statues Statistics] (https://github.com/limccn/cacl2/blob/master/STATUES.md)
+**Detail Statistics data please refer to [Statistics](https://github.com/limccn/cacl2/blob/master/STATUES.md)
 
 ## Get Start
 
@@ -57,7 +57,7 @@ import jieba
 dict_name = '480000.txt'
 jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 ```
-#### 2.2 Example for using [IK Analyzer] (https://code.google.com/archive/p/ik-analyzer/)
+#### 2.2 Example for using [IK Analyzer](https://code.google.com/archive/p/ik-analyzer/)
 
 ```xml
 <properties>   
@@ -85,7 +85,7 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 
 ### Technical Preview
 Before dictionary finally publish/release, we published a technical preview dictionary contains 10,000 entries for every class-1 industry.
-If you need further information about all entries, Please refer to：[CaCl2开放状态统计](https://github.com/limccn/cacl2/blob/master/STATUES-zh_CN.md)
+If you need further information about all entries, Please refer to [Statistics](https://github.com/limccn/cacl2/blob/master/STATUES.md)
 
 |  Code  |  Name | Entries | Format | Download |
 | :----:  | :----  |  :----:  | :----: | :----: |
@@ -121,7 +121,7 @@ If you need further information about all entries, Please refer to：[CaCl2开�
 
 **Original raw data,  please refer to [/dicts](https://github.com/limccn/cacl2/tree/master/dicts)
 
-**Detail Class-1 and 2 industries dictionaries, Please refer to [Statues Statistics](https://github.com/limccn/cacl2/blob/master/STATUES.md)
+**Detail Class-1 and 2 industries dictionaries, Please refer to [Statistics](https://github.com/limccn/cacl2/blob/master/STATUES.md)
 
 ## Comparison and Test
 ### 1.Comparsion 
@@ -161,7 +161,7 @@ Word segmentation test use Standard Chinese test dataset
 | v0.2.21.01 | monthly | 2021-02-01 | Release: banking and financials dictionary  |
 | v0.2.20.12 | monthly | 2021-01-01 | v0.2 Initial version |
 
-**Detail monthly/quarterly releases history, please refer to: [Auto-Release history](https://github.com/limccn/cacl2#2monthlyqurterly-releases)
+**Detail monthly/quarterly releases history, please refer to [Auto-Release history](https://github.com/limccn/cacl2#2monthlyqurterly-releases)
 
 ## License
 ### Open-Source license

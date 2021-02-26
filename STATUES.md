@@ -13,7 +13,8 @@
 | 2021-02-01 | Class-2 |  104 |  5 | 99 | 0 |
 
 ## Detail 
-### Class-1 and 2 industries dictionaries
+### Class-1 industries dictionaries
+
 |  Code | Name | Entries | Status | Date | Version | Format | Download |
 | :----:  | :----  |  :----: | :----: | :----: | :----: | :----: | :----: |
 | 110000 | Agriculture-Common | 82,450 | Preview |  - | v0.1 | txt | [110000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/110000.zip) |
@@ -44,3 +45,14 @@
 | 710000 | Information Services-Common | 75,866 | Preview |  - | v0.1 | txt | [710000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/710000.zip) |
 | 720000 | Media-Common | 64,862 | Preview |  - | v0.1 | txt | [720000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/720000.zip) |
 | 730000 | Telecom-Common | 40,727 | Preview |  - | v0.1 | txt | [730000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/730000.zip) |
+
+
+### Class-2 industries dictionaries
+
+|  Code | Class-1 | Class-2 | Entries | Status | Date | Version | Format | Download |
+| :----:  |:---- | :---- |  :----: | :----: | :----: | :----: | :----: | :----: |
+| 480000 | Banking | |  |  | | |  | |
+| 480100 | | Banking-Bank | 224,433 | Release | 2021-02 | v0.2 | txt | [480100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480100.zip) |
+| 490000 | Financials | |  |  | | |  | |
+| 490100 | | Financials-Securities | 311,121 | Release | 2021-02  | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
+| 490200 | | Financials-Insurance | 31,020 | Release | 2021-02  | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
