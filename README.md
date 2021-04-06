@@ -26,7 +26,7 @@ CaCl2 project aims to build a consistent, complete and accurate industrial lexic
 #### Entries
 |  Date |  All  | Candidate  | Released  | Preview  |
 | :----: | :----: |  :----: | :----: | :----: | 
-| 2021-02-01 | 21,000,000 | 3,000,000 | 2,553,806 | 280,000 |
+| 2021-02-01 | 21,000,000 | 3,000,000 | 2,624,625 | 280,000 |
 
 #### Dictionaries
 |  Date | Class | Industries | Released  | Preview |  Closing  | 
@@ -72,11 +72,11 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 ### Released
 |  Code | Name | Entries | Date | Version | Format | Download |
 | :----: | :---- | :----:  | :----: | :----: | :----: | :----: |
-| 480000 | Banking-Common | 40612 | 2021-02 | v0.2 | txt  | [480000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480000.zip) |
-| 480100 | Banking-Bank | 224433 | 2021-02 | v0.2 | txt | [480100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480100.zip) |
-| 490000 | Financials-Common | 341235 | 2021-02 | v0.2 | txt | [490000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490000.zip) |
-| 490100 | Financials-Securities | 311121 | 2021-02 | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
-| 490200 | Financials-Insurance | 31020 | 2021-02 | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
+| 480000 | Banking-Common | 40,612 | 2021-02 | v0.2 | txt  | [480000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480000.zip) |
+| 480100 | Banking-Bank | 224,433 | 2021-02 | v0.2 | txt | [480100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480100.zip) |
+| 490000 | Financials-Common | 353,149 | 2021-02 | v0.2 | txt | [490000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490000.zip) |
+| 490100 | Financials-Securities | 324,450 | 2021-02 | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
+| 490200 | Financials-Insurance | 31,020 | 2021-02 | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
 
 ### Scheduled Release
 |  Code  |  Name | Entries | Schedule | Version  | Format | Download |
@@ -158,7 +158,7 @@ Word segmentation test use Standard Chinese test dataset
 ### 2.Monthly/Quarterly releases
 | Version |  Circle |  Date | Changelogs |
 | :----: | :----: | :----: | :---- |
-| v0.2.21.01 | monthly | 2021-02-01 | Release: banking and financials dictionary  |
+| v0.2.21.04 | monthly | 2021-02-01 | Release: banking and financials dictionary  |
 | v0.2.20.12 | monthly | 2021-01-01 | v0.2 Initial version |
 
 **Detail monthly/quarterly releases history, please refer to [Auto-Release history](https://github.com/limccn/cacl2#2monthlyqurterly-releases)
