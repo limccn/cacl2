@@ -126,9 +126,70 @@ If you need further information about all entries, Please refer to [Statistics](
 ## Comparison and Test
 ### 1.Comparsion 
 #### 1.1 Compare CaCl2 Dictionary and [jieba](https://github.com/fxsjy/jieba/)（@CaoWJ）Dictionary
-![Compare Lexicon]()
+
+##### Text for test
+```python
+text = """
+A股今日迎来4月开门红，三大指数集体收涨，其中沪指上涨0.71%，收报3466.33点；深证成指上涨1.46%，收报13979.69点；
+创业板指上涨2.06%，收报2815.41点。市场成交量持续低迷，两市合计成交6577亿元，行业板块涨跌互现，钢铁板块强势领涨。
+东吴证券指出，目前3月行情已经收官，进入4月份后，一季报的炒作情绪将进一步升温，因此未来市场风格将以估值修复和业绩成长轮动呈现，
+投资者可重点关注环比业绩增长的品种以及顺周期板块。
+中原证券认为，核心资产持续上涨的动力不足，场外资金入市做多的信心不强，沪指继续围绕半年线震荡整固的格局依然未改。
+建议投资者继续关注政策面以及资金面的变化情况。
+
+"""
+```
+##### Implement jieba with standard dictionary (demo)
+```python
+import jieba
+seg_list = jieba.cut(text, cut_all=False)
+print("jieba: " + "/ ".join(seg_list))
+```
+##### Jieba Output:
+```
+/ A股/ 今日/ 迎来/ 4/ 月/ 开门红/ ，/ 三大/ 指数/ 集体/ 收涨/ ，/ 其中/ 沪/ 指/ 上涨/ 0.71%/ ，/ 收报/ 3466.33/ 点/ ；/ 深证/ 成指/ 上涨/ 1.46%/ ，/ 收报/ 13979.69/ 点/ ；/ 
+/ 创业板/ 指/ 上涨/ 2.06%/ ，/ 收报/ 2815.41/ 点/ 。/ 市场/ 成交量/ 持续/ 低迷/ ，/ 两市/ 合计/ 成交/ 6577/ 亿元/ ，/ 行业/ 板块/ 涨跌互现/ ，/ 钢铁/ 板块/ 强势/ 领涨/ 。/ 
+/ 东吴/ 证券/ 指出/ ，/ 目前/ 3/ 月/ 行情/ 已经/ 收官/ ，/ 进入/ 4/ 月份/ 后/ ，/ 一/ 季报/ 的/ 炒作/ 情绪/ 将/ 进一步/ 升温/ ，/ 因此/ 未来/ 市场/ 风格/ 将/ 以/ 估值/ 修复/ 和/ 业绩/ 成长/ 轮动/ 呈现/ ，/ 
+/ 投资者/ 可/ 重点/ 关注/ 环比/ 业绩/ 增长/ 的/ 品种/ 以及/ 顺/ 周期/ 板块/ 。/ 
+/ 中原/ 证券/ 认为/ ，/ 核心/ 资产/ 持续/ 上涨/ 的/ 动力/ 不足/ ，/ 场外/ 资金/ 入市/ 做/ 多/ 的/ 信心/ 不/ 强/ ，/ 沪/ 指/ 继续/ 围绕/ 半年线/ 震荡/ 整固/ 的/ 格局/ 依然/ 未改/ 。/ 
+/ 建议/ 投资者/ 继续/ 关注/ 政策/ 面/ 以及/ 资金面/ 的/ 变化/ 情况/ 。/ 
+```
+##### Implement jieba with CaCl2 dictionary
+```python
+import jieba
+dict_name = '490000.txt'
+jieba.load_userdict(dict_name)
+seg_list = jieba.cut(text, cut_all=False)
+print("cacl2: " + "/ ".join(seg_list))
+```
+##### CaCl2 Output:
+```
+/ A股/ 今日/ 迎来/ 4/ 月/ 开门红/ ，/ 三大指数/ 集体/ 收涨/ ，/ 其中/ 沪指/ 上涨/ 0.71%/ ，/ 收报/ 3466.33/ 点/ ；/ 深证成指/ 上涨/ 1.46%/ ，/ 收报/ 13979.69/ 点/ ；/ 
+/ 创业板指/ 上涨/ 2.06%/ ，/ 收报/ 2815.41/ 点/ 。/ 市场/ 成交量/ 持续/ 低迷/ ，/ 两市/ 合计/ 成交/ 6577/ 亿元/ ，/ 行业板块/ 涨跌互现/ ，/ 钢铁板块/ 强势/ 领涨/ 。/ 
+/ 东吴证券/ 指出/ ，/ 目前/ 3/ 月/ 行情/ 已经/ 收官/ ，/ 进入/ 4/ 月份/ 后/ ，/ 一/ 季报/ 的/ 炒作/ 情绪/ 将/ 进一步/ 升温/ ，/ 因此/ 未来/ 市场/ 风格/ 将/ 以/ 估值/ 修复/ 和/ 业绩/ 成长/ 轮动/ 呈现/ ，/ 
+/ 投资者/ 可/ 重点/ 关注/ 环比/ 业绩/ 增长/ 的/ 品种/ 以及/ 顺/ 周期/ 板块/ 。/ 
+/ 中原证券/ 认为/ ，/ 核心资产/ 持续/ 上涨/ 的/ 动力/ 不足/ ，/ 场外资金/ 入市/ 做多/ 的/ 信心/ 不/ 强/ ，/ 沪指/ 继续/ 围绕/ 半年线/ 震荡/ 整固/ 的/ 格局/ 依然/ 未改/ 。/ 
+/ 建议/ 投资者/ 继续/ 关注/ 政策面/ 以及/ 资金面/ 的/ 变化/ 情况/ 。/ 
+```
+* **Comparsion**
+
+![Compare CaCl2 and Jieba dictionary](https://github.com/limccn/cacl2/blob/master/docs/images/jieba.png)
+
 #### 1.2 Word segmentation compare with [招金词酷](https://mp.weixin.qq.com/s/CuSZQ-BVZTzVS1ljYLcaKw?)（@CaoWJ）
-![Word segmentation]()
+
+##### 招金词酷(version 1.1) Output
+```
+A股  今日  迎来  4  月  开门红  三大  指数  集体  收涨  其中  沪指  上涨  0.71  %  收报  3466.33  点  深证  成指  上涨  1.46  %  收报  13979.69  点  
+创业板  指  上涨  2.06  %  收报  2815.41  点  市场  成交量  持续  低迷  两  市  合计  成交  6577  亿元  行业板块  涨跌互现  钢铁板块  强势  领涨  
+东吴证券  指出  目前  3  月  行情  已经  收官  进入  4  月份  后  一  季报  的  炒作  情绪  将  进一步  升温  因此  未来  市场  风格  将  以  估值  修复  和  业绩  成长  轮动  呈现  
+投资者  可  重点关注  环比  业绩增长  的  品种  以及  顺  周期  板块  
+中原证券  认为  核心  资产  持续  上涨的  动力  不足  场外  资金  入市  做  多  的  信心  不  强  沪指  继续  围绕  半年线  震荡  整固  的  格局  依然  未改  
+建议投资者  继续关注  政策面  以及  资金面  的  变化  情况
+```
+
+* **Comparsion**
+
+![Compare CaCl2 and 招金词酷](https://github.com/limccn/cacl2/blob/master/docs/images/zhaojinciku.png)
 #### 1.3 Document summarization compare with [招金词酷](https://mp.weixin.qq.com/s/CuSZQ-BVZTzVS1ljYLcaKw?)（@CaoWJ）
 ![Document summarization]()
 
@@ -158,7 +219,9 @@ Word segmentation test use Standard Chinese test dataset
 ### 2.Monthly/Quarterly releases
 | Version |  Circle |  Date | Changelogs |
 | :----: | :----: | :----: | :---- |
-| v0.2.21.04 | monthly | 2021-02-01 | Release: banking and financials dictionary  |
+| v0.2.21.03 | monthly | 2021-04-06 | Comparsion test and code added |
+| v0.2.21.02 | monthly | 2021-03-01 | Candidate entries added |
+| v0.2.21.01 | monthly | 2021-02-01 | Release: banking and financials dictionary  |
 | v0.2.20.12 | monthly | 2021-01-01 | v0.2 Initial version |
 
 **Detail monthly/quarterly releases history, please refer to [Auto-Release history](https://github.com/limccn/cacl2#2monthlyqurterly-releases)
