@@ -15,7 +15,7 @@ CaCl2是开放项目CaOCl（CA开放中文词法分析工具包）重要组成�
 
 |  时间 |  总词条数 | 候选词条 | 已公开词条 | 预览版词条 |
 | :----: | :----: |  :----: | :----: | :----: | 
-| 2021-04-01 | 约21,000,000 | 约3,000,000 | 2,624,625 | 280,000 |
+| 2021-04-01 | 约21,000,000 | 约3,000,000 | 3,279,518 | 280,000 |
 
 #### 2.行业字典数
 |  时间 | 行业 | 词典数 | 已公开  | 预览版 | 未公开  | 
@@ -65,11 +65,11 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 ### 1.已开源
 |  行业代码 | 词库名称 | 词条数量 | 公开时间 | 当前版本 | 格式 | 下载地址 |
 | :----: | :---- | :----:  | :----: | :----: | :----: | :----: |
-| 480000 | 银行-通用 | 40,612 | 2021-02 | v0.2 | txt  | [480000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480000.zip) |
-| 480100 | 银行-银行 | 224,433 | 2021-02 | v0.2 | txt | [480100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480100.zip) |
-| 490000 | 非银金融-通用 | 353,149 | 2021-02 | v0.2 | txt | [490000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490000.zip) |
-| 490100 | 非银金融-证券 | 324,450 | 2021-02 | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
-| 490200 | 非银金融-保险 | 31,020 | 2021-02 | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
+| 480000 | 银行-通用 | 52,105 | 2021-02 | v0.2 | txt  | [480000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480000.zip) |
+| 480100 | 银行-银行 | 232,434 | 2021-02 | v0.2 | txt | [480100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480100.zip) |
+| 490000 | 非银金融-通用 | 365,878 | 2021-02 | v0.2 | txt | [490000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490000.zip) |
+| 490100 | 非银金融-证券 | 338,428 | 2021-02 | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
+| 490200 | 非银金融-保险 | 45,388 | 2021-02 | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
 
 ### 2.计划开源
 |  行业代码  |  词库名称 | 词条数量 | 计划公开时间 | 当前版本  | 格式 | 下载地址 |
@@ -188,14 +188,53 @@ A股  今日  迎来  4  月  开门红  三大  指数  集体  收涨  其中 
 ### 2.指标和得分
 #### 2.1 行业数据集测试
 ##### 2.1.1 金融行业(银行行业)，分词测试
-![金融行业(银行行业)，分词测试]()
+###### CaCl2银行词库分词（代码示例）
+```python
+import jieba
+dict_name = '480100.txt'
+jieba.load_userdict(dict_name)
+seg_list = jieba.cut(text, cut_all=False)
+print("cacl2: " + "/ ".join(seg_list))
+```
+![金融行业(银行行业)分词测试](https://github.com/limccn/cacl2/blob/master/docs/images/480100.png)
+
+[详细分词测试结果地址](https://github.com/limccn/cacl2/docs/480100_cacl2_seg.txt)
 ##### 2.1.2 金融行业(金融行业，不包含银行)，分词测试
-![金融行业(金融行业，不包含银行)，分词测试]()
+###### CaCl2金融标准词库分词（代码示例）
+```python
+import jieba
+dict_name = '490000.txt'
+jieba.load_userdict(dict_name)
+seg_list = jieba.cut(text, cut_all=False)
+print("cacl2: " + "/ ".join(seg_list))
+```
+![金融行业(金融行业，不包含银行)分词测试](https://github.com/limccn/cacl2/blob/master/docs/images/490000.png)
+
+[详细分词测试结果地址](https://github.com/limccn/cacl2/docs/490000_cacl2_seg.txt)
 #### 2.2 标准数据集测试
 ##### 2.2.1 标准数据集Chinese Treebank（CTB5）上测试分词，[参考链接](https://www.cs.brandeis.edu/~clp/ctb/)
 ![标准数据集CTB5上测试分词]()
 ##### 2.2.2 标准数据集International Chinese Word Segmentation Bakeoff（ICWB2）上测试分词，[参考链接](http://sighan.cs.uchicago.edu/bakeoff2005/)
-![标准数据集ICWB2上测试分词]()
+ICWB2标准数据集上测试分词的评分结果：
+```
+=== SUMMARY:
+=== TOTAL INSERTIONS:	1796
+=== TOTAL DELETIONS:	10090
+=== TOTAL SUBSTITUTIONS:	12567
+=== TOTAL NCHANGE:	24453
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	96078
+=== TOTAL TRUE WORDS RECALL:	0.783
+=== TOTAL TEST WORDS PRECISION:	0.851
+=== F MEASURE:	0.815
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.582
+=== IV Recall Rate:	0.795
+###	pku_cacl2_seg.txt	1796	10090	12567	24453	104372	96078	0.783	0.851	0.815	0.058	0.582	0.795
+```
+![标准数据集ICWB2上测试分词](https://github.com/limccn/cacl2/blob/master/docs/images/score.png)
+
+[详细评分结果地址](https://github.com/limccn/cacl2/docs/score.txt)
 
 ## 五、历史和变更日志
 ### 1.定期发布版本
