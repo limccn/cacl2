@@ -197,7 +197,7 @@ A股  今日  迎来  4  月  开门红  三大  指数  集体  收涨  其中 
 #### 2.1 industrial test dataset
 Word segmentation test use for different industrial textual data
 ##### 2.1.1 Word segmentation use financial industry（banking industry Only）dictionary
-###### CaCl2 Word segmentation（demo）
+###### Sample: Word segmentation using CaCl2（source code written in python）
 ```python
 import jieba
 dict_name = '480100.txt'
@@ -207,9 +207,9 @@ print("cacl2: " + "/ ".join(seg_list))
 ```
 ![Financial industry（banking industry Only） Word segmentation](https://github.com/limccn/cacl2/blob/master/docs/images/480100.png)
 
-[Word segmentation output](https://github.com/limccn/cacl2/docs/480100_cacl2_seg.txt)
+[Word segmentation output](https://github.com/limccn/cacl2/raw/master/docs/480100_cacl2_seg.txt)
 ##### 2.1.2 Word segmentation use Financial industry（Except banking industry）dictionary
-###### CaCl2 Word segmentation（demo）
+###### Sample: Word segmentation using CaCl2（source code written in python）
 ```python
 import jieba
 dict_name = '490000.txt'
@@ -219,7 +219,7 @@ print("cacl2: " + "/ ".join(seg_list))
 ```
 ![Financial industry（Except banking industry） Word segmentation](https://github.com/limccn/cacl2/blob/master/docs/images/490000.png)
 
-[Word segmentation output](https://github.com/limccn/cacl2/docs/490000_cacl2_seg.txt)
+[Word segmentation output](https://github.com/limccn/cacl2/raw/master/docs/490000_cacl2_seg.txt)
 
 #### 2.2 Standard test dataset
 Word segmentation test use Standard Chinese test dataset
@@ -245,7 +245,7 @@ Score for ICWB：
 ```
 ![Test word segmentation with ICWB2](https://github.com/limccn/cacl2/blob/master/docs/images/score.png)
 
-[Score for ICWB](https://github.com/limccn/cacl2/docs/score.txt)
+[Score for ICWB](https://github.com/limccn/cacl2/raw/master/docs/score.txt)
 
 ## History and changelogs
 ### 1.Regular releases
@@ -258,7 +258,7 @@ Score for ICWB：
 ### 2.Monthly/Quarterly releases
 | Version |  Circle |  Date | Changelogs |
 | :----: | :----: | :----: | :---- |
-| v0.2.21.04 | monthly | 2021-05-07 | industrial test and code added |
+| v0.2.21.04 | monthly | 2021-05-07 | ICWB2 test and code added |
 | v0.2.21.03 | monthly | 2021-04-06 | Comparsion test and code added |
 | v0.2.21.02 | monthly | 2021-03-01 | Candidate entries added |
 | v0.2.21.01 | monthly | 2021-02-01 | Release: banking and financials dictionary  |

@@ -188,7 +188,7 @@ A股  今日  迎来  4  月  开门红  三大  指数  集体  收涨  其中 
 ### 2.指标和得分
 #### 2.1 行业数据集测试
 ##### 2.1.1 金融行业(银行行业)，分词测试
-###### CaCl2银行词库分词（代码示例）
+###### 代码示例（python）：使用CaCl2词库对某银行《银行贷款合同》进行分词测试
 ```python
 import jieba
 dict_name = '480100.txt'
@@ -198,9 +198,9 @@ print("cacl2: " + "/ ".join(seg_list))
 ```
 ![金融行业(银行行业)分词测试](https://github.com/limccn/cacl2/blob/master/docs/images/480100.png)
 
-[详细分词测试结果地址](https://github.com/limccn/cacl2/docs/480100_cacl2_seg.txt)
+[详细分词测试结果地址](https://github.com/limccn/cacl2/raw/master/docs/480100_cacl2_seg.txt)
 ##### 2.1.2 金融行业(金融行业，不包含银行)，分词测试
-###### CaCl2金融标准词库分词（代码示例）
+###### 代码示例（python）：使用CaCl2词库对证券教材《移动平均线》章节进行分词测试
 ```python
 import jieba
 dict_name = '490000.txt'
@@ -210,7 +210,7 @@ print("cacl2: " + "/ ".join(seg_list))
 ```
 ![金融行业(金融行业，不包含银行)分词测试](https://github.com/limccn/cacl2/blob/master/docs/images/490000.png)
 
-[详细分词测试结果地址](https://github.com/limccn/cacl2/docs/490000_cacl2_seg.txt)
+[详细分词测试结果地址](https://github.com/limccn/cacl2/raw/master/docs/490000_cacl2_seg.txt)
 #### 2.2 标准数据集测试
 ##### 2.2.1 标准数据集Chinese Treebank（CTB5）上测试分词，[参考链接](https://www.cs.brandeis.edu/~clp/ctb/)
 ![标准数据集CTB5上测试分词]()
@@ -232,9 +232,10 @@ ICWB2标准数据集上测试分词的评分结果：
 === IV Recall Rate:	0.795
 ###	pku_cacl2_seg.txt	1796	10090	12567	24453	104372	96078	0.783	0.851	0.815	0.058	0.582	0.795
 ```
+
 ![标准数据集ICWB2上测试分词](https://github.com/limccn/cacl2/blob/master/docs/images/score.png)
 
-[详细评分结果地址](https://github.com/limccn/cacl2/docs/score.txt)
+[详细评分结果地址](https://github.com/limccn/cacl2/raw/master/docs/score.txt)
 
 ## 五、历史和变更日志
 ### 1.定期发布版本
@@ -247,7 +248,7 @@ ICWB2标准数据集上测试分词的评分结果：
 ### 2.自动发布版本
 | 最新版本 | 发布周期 | 发布时间 | 变更日志 |
 | :----: | :----: | :----: | :---- |
-| v0.2.21.04 | monthly | 2021-05-07 | 添加标准数据集测试结果 |
+| v0.2.21.04 | monthly | 2021-05-07 | 添加ICWB2标准数据集测试结果 |
 | v0.2.21.03 | monthly | 2021-04-06 | 公开金融行业测试数据结果 |
 | v0.2.21.02 | monthly | 2021-03-01 | 增加28个行业候选词条约100万 |
 | v0.2.21.01 | monthly | 2021-02-01 | 金融行业（银行和非银金融）行业词库发布 |
@@ -273,7 +274,6 @@ CaCl2的源代码在[Apache License 2.0](https://www.apache.org/licenses/LICENSE
     See the License for the specific language governing permissions and
     limitations under the License.
 ```
-
 ### 2.共同创作许可证
 CaCl2开放的词库，语料，模型等资料沿用[Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)知识共享许可协议。
 
