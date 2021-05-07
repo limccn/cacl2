@@ -26,7 +26,7 @@ CaCl2 project aims to build a consistent, complete and accurate industrial lexic
 #### Entries
 |  Date |  All  | Candidate  | Released  | Preview  |
 | :----: | :----: |  :----: | :----: | :----: | 
-| 2021-02-01 | 21,000,000 | 3,000,000 | 2,624,625 | 280,000 |
+| 2021-02-01 | 21,000,000 | 3,000,000 | 3,279,518 | 280,000 |
 
 #### Dictionaries
 |  Date | Class | Industries | Released  | Preview |  Closing  | 
@@ -72,11 +72,11 @@ jieba.load_userdict(os.path.join(BASE_PATH_TO_DICT), dict_name))
 ### Released
 |  Code | Name | Entries | Date | Version | Format | Download |
 | :----: | :---- | :----:  | :----: | :----: | :----: | :----: |
-| 480000 | Banking-Common | 40,612 | 2021-02 | v0.2 | txt  | [480000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480000.zip) |
-| 480100 | Banking-Bank | 224,433 | 2021-02 | v0.2 | txt | [480100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480100.zip) |
-| 490000 | Financials-Common | 353,149 | 2021-02 | v0.2 | txt | [490000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490000.zip) |
-| 490100 | Financials-Securities | 324,450 | 2021-02 | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
-| 490200 | Financials-Insurance | 31,020 | 2021-02 | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
+| 480000 | Banking-Common | 52,105 | 2021-02 | v0.2 | txt  | [480000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480000.zip) |
+| 480100 | Banking-Bank | 232,434 | 2021-02 | v0.2 | txt | [480100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480100.zip) |
+| 490000 | Financials-Common | 365,87 | 2021-02 | v0.2 | txt | [490000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490000.zip) |
+| 490100 | Financials-Securities | 338,428 | 2021-02 | v0.2 | txt | [490100.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490100.zip) |
+| 490200 | Financials-Insurance | 45,388 | 2021-02 | v0.2 | txt | [480200.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480200.zip) |
 
 ### Scheduled Release
 |  Code  |  Name | Entries | Schedule | Version  | Format | Download |
@@ -197,9 +197,30 @@ A股  今日  迎来  4  月  开门红  三大  指数  集体  收涨  其中 
 #### 2.1 industrial test dataset
 Word segmentation test use for different industrial textual data
 ##### 2.1.1 Word segmentation use financial industry（banking industry Only）dictionary
-![Financial industry（banking industry Only） Word segmentation]()
+###### CaCl2 Word segmentation（demo）
+```python
+import jieba
+dict_name = '480100.txt'
+jieba.load_userdict(dict_name)
+seg_list = jieba.cut(text, cut_all=False)
+print("cacl2: " + "/ ".join(seg_list))
+```
+![Financial industry（banking industry Only） Word segmentation](https://github.com/limccn/cacl2/blob/master/docs/images/480100.png)
+
+[Word segmentation output](https://github.com/limccn/cacl2/docs/480100_cacl2_seg.txt)
 ##### 2.1.2 Word segmentation use Financial industry（Except banking industry）dictionary
 ![Financial industry（Except banking industry） Word segmentation]()
+###### CaCl2 Word segmentation（demo）
+```python
+import jieba
+dict_name = '490000.txt'
+jieba.load_userdict(dict_name)
+seg_list = jieba.cut(text, cut_all=False)
+print("cacl2: " + "/ ".join(seg_list))
+```
+![Financial industry（Except banking industry） Word segmentation](https://github.com/limccn/cacl2/blob/master/docs/images/490000.png)
+
+[Word segmentation output](https://github.com/limccn/cacl2/docs/490000_cacl2_seg.txt)
 
 #### 2.2 Standard test dataset
 Word segmentation test use Standard Chinese test dataset
@@ -207,6 +228,26 @@ Word segmentation test use Standard Chinese test dataset
 ![Score for CTB5]()
 ##### 2.2.2 Score for [International Chinese Word Segmentation Bakeoff（ICWB2）](http://sighan.cs.uchicago.edu/bakeoff2005/)
 ![Score for ICWB]()
+Score for ICWB：
+```
+=== SUMMARY:
+=== TOTAL INSERTIONS:	1796
+=== TOTAL DELETIONS:	10090
+=== TOTAL SUBSTITUTIONS:	12567
+=== TOTAL NCHANGE:	24453
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	96078
+=== TOTAL TRUE WORDS RECALL:	0.783
+=== TOTAL TEST WORDS PRECISION:	0.851
+=== F MEASURE:	0.815
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.582
+=== IV Recall Rate:	0.795
+###	pku_cacl2_seg.txt	1796	10090	12567	24453	104372	96078	0.783	0.851	0.815	0.058	0.582	0.795
+```
+![Test word segmentation with ICWB2](https://github.com/limccn/cacl2/blob/master/docs/images/score.png)
+
+[Score for ICWB](https://github.com/limccn/cacl2/docs/score.txt)
 
 ## History and changelogs
 ### 1.Regular releases
@@ -219,6 +260,7 @@ Word segmentation test use Standard Chinese test dataset
 ### 2.Monthly/Quarterly releases
 | Version |  Circle |  Date | Changelogs |
 | :----: | :----: | :----: | :---- |
+| v0.2.21.04 | monthly | 2021-05-07 | industrial test and code added |
 | v0.2.21.03 | monthly | 2021-04-06 | Comparsion test and code added |
 | v0.2.21.02 | monthly | 2021-03-01 | Candidate entries added |
 | v0.2.21.01 | monthly | 2021-02-01 | Release: banking and financials dictionary  |
