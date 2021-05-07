@@ -209,7 +209,6 @@ print("cacl2: " + "/ ".join(seg_list))
 
 [Word segmentation output](https://github.com/limccn/cacl2/docs/480100_cacl2_seg.txt)
 ##### 2.1.2 Word segmentation use Financial industry（Except banking industry）dictionary
-![Financial industry（Except banking industry） Word segmentation]()
 ###### CaCl2 Word segmentation（demo）
 ```python
 import jieba
@@ -227,7 +226,6 @@ Word segmentation test use Standard Chinese test dataset
 ##### 2.2.1 Score for [Chinese Treebank（CTB5）](https://www.cs.brandeis.edu/~clp/ctb/)
 ![Score for CTB5]()
 ##### 2.2.2 Score for [International Chinese Word Segmentation Bakeoff（ICWB2）](http://sighan.cs.uchicago.edu/bakeoff2005/)
-![Score for ICWB]()
 Score for ICWB：
 ```
 === SUMMARY:
