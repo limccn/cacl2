@@ -6,6 +6,7 @@
 
 |  时间 |  总词条数 | 候选词条 | 已公开词条 | 预览版词条 |
 | :----: | :----: |  :----: | :----: | :----: | 
+| 2021-05-01 | 约21,000,000 | 约3,000,000 | 3,919,527 | 280,000 |
 | 2021-04-01 | 约21,000,000 | 约3,000,000 | 3,279,518 | 280,000 |
 | 2021-03-01 | 约21,000,000 | 约3,000,000 | 2,624,625 | 280,000 |
 | 2021-02-01 | 约21,000,000 | 约3,000,000 | 2,553,806 | 280,000 |
@@ -20,34 +21,34 @@
 ### 一级行业词库
 |  行业代码  |  词库名称 | 词条数量 | 当前状态 | 公开时间 | 当前版本 | 格式 | 下载地址 |
 | :----:  | :----  |  :----: | :----: | :----: | :----: | :----: | :----: |
-| 110000 | 农林牧渔-通用 | 81,974 | 预览版 | - | v0.1 | txt | [110000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/110000.zip) |
-| 210000 | 采掘-通用 | 21,060 | 预览版 | - | v0.1 | txt | [210000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/210000.zip) |
-| 220000 | 化工-通用 | 43,691 | 预览版 | - | v0.1 | txt | [220000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/220000.zip) |
-| 230000 | 钢铁-通用 | 10,904 | 预览版 | - | v0.1 | txt | [230000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/230000.zip) |
-| 240000 | 有色金属-通用 | 16,224 | 预览版 | - | v0.1 | txt | [240000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/240000.zip) |
-| 270000 | 电子-通用 | 148,302 | 预览版 | - | v0.1 | txt | [270000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/270000.zip) |
-| 280000 | 汽车-通用 | 73,556 | 预览版 | - | v0.1 | txt | [280000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/280000.zip) |
-| 330000 | 家用电器-通用 | 30,231 | 预览版 | - | v0.1 | txt | [330000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/330000.zip) |
-| 340000 | 食品饮料-通用 | 26,859 | 预览版 | - | v0.1 | txt | [340000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/340000.zip) |
-| 350000 | 纺织服装-通用 | 33,728 | 预览版 | - | v0.1 | txt | [350000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/350000.zip) |
-| 360000 | 轻工制造-通用 | 46,532 | 预览版 | - | v0.1 | txt | [360000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/360000.zip) |
-| 370000 | 医药生物-通用 | 33,171 | 预览版 | - | v0.1 | txt | [370000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/370000.zip) |
-| 410000 | 公用事业-通用 | 106,506 | 预览版 | - | v0.1 | txt | [410000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/410000.zip) |
-| 420000 | 交通运输-通用 | 64,030 | 预览版 | - | v0.1 | txt | [420000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/420000.zip) |
-| 430000 | 房地产-通用 | 108,396 | 预览版 | - | v0.1 | txt | [430000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/430000.zip) |
-| 450000 | 商业贸易-通用 | 240,736 | 预览版 | - | v0.1 | txt | [450000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/450000.zip) |
-| 460000 | 休闲服务-通用 | 201,698 | 预览版 | - | v0.1 | txt | [460000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/460000.zip) |
+| 110000 | 农林牧渔-通用 | 96,106 | 预览版 | - | v0.1 | txt | [110000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/110000.zip) |
+| 210000 | 采掘-通用 | 24,437 | 预览版 | - | v0.1 | txt | [210000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/210000.zip) |
+| 220000 | 化工-通用 | 93,146 | 预览版 | - | v0.1 | txt | [220000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/220000.zip) |
+| 230000 | 钢铁-通用 | 23,139 | 预览版 | - | v0.1 | txt | [230000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/230000.zip) |
+| 240000 | 有色金属-通用 | 22,687 | 预览版 | - | v0.1 | txt | [240000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/240000.zip) |
+| 270000 | 电子-通用 | 156,359 | 预览版 | - | v0.1 | txt | [270000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/270000.zip) |
+| 280000 | 汽车-通用 | 78,024 | 预览版 | - | v0.1 | txt | [280000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/280000.zip) |
+| 330000 | 家用电器-通用 | 37,244 | 预览版 | - | v0.1 | txt | [330000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/330000.zip) |
+| 340000 | 食品饮料-通用 | 138,073 | 预览版 | - | v0.1 | txt | [340000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/340000.zip) |
+| 350000 | 纺织服装-通用 | 40,525 | 预览版 | - | v0.1 | txt | [350000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/350000.zip) |
+| 360000 | 轻工制造-通用 | 122,111 | 预览版 | - | v0.1 | txt | [360000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/360000.zip) |
+| 370000 | 医药生物-通用 | 33,802 | 预览版 | - | v0.1 | txt | [370000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/370000.zip) |
+| 410000 | 公用事业-通用 | 106,918 | 预览版 | - | v0.1 | txt | [410000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/410000.zip) |
+| 420000 | 交通运输-通用 | 64,747 | 预览版 | - | v0.1 | txt | [420000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/420000.zip) |
+| 430000 | 房地产-通用 | 110,874 | 预览版 | - | v0.1 | txt | [430000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/430000.zip) |
+| 450000 | 商业贸易-通用 | 351,607 | 预览版 | - | v0.1 | txt | [450000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/450000.zip) |
+| 460000 | 休闲服务-通用 | 228,308 | 预览版 | - | v0.1 | txt | [460000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/460000.zip) |
 | 480000 | 银行-通用 | 52,105 | 发布 | 2020-02 | v0.2 | txt | [480000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/480000.zip) |
 | 490000 | 非银金融-通用 | 365,878 | 发布 | 2020-02  | v0.2 | txt | [490000.zip](https://github.com/limccn/cacl2/blob/master/archive/v0.2/490000.zip) |
-| 510000 | 综合-通用 | 183,582 | 预览版 | - | v0.1 | txt | [510000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/510000.zip) |
-| 610000 | 建筑材料-通用 | 53,549 | 预览版 | - | v0.1 | txt | [610000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/610000.zip) |
-| 620000 | 建筑装饰-通用 | 60,544 | 预览版 | - | v0.1 | txt | [620000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/620000.zip) |
-| 630000 | 电气设备-通用 | 73,085 | 预览版 | - | v0.1 | txt | [630000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/630000.zip) |
-| 640000 | 机械设备-通用 | 223,578 | 预览版 | - | v0.1 | txt | [640000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/640000.zip) |
-| 650000 | 国防军工-通用 | 36,563 | 预览版 | - | v0.1 | txt | [650000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/650000.zip) |
-| 710000 | 计算机-通用 | 117,364 | 预览版 | - | v0.1 | txt | [710000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/710000.zip) |
-| 720000 | 传媒-通用 | 117,009 | 预览版 | - | v0.1 | txt | [720000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/720000.zip) |
-| 730000 | 通信-通用 | 48,606 | 预览版 | - | v0.1 | txt | [730000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/730000.zip) |
+| 510000 | 综合-通用 | 231,962 | 预览版 | - | v0.1 | txt | [510000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/510000.zip) |
+| 610000 | 建筑材料-通用 | 53,801 | 预览版 | - | v0.1 | txt | [610000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/610000.zip) |
+| 620000 | 建筑装饰-通用 | 69,323 | 预览版 | - | v0.1 | txt | [620000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/620000.zip) |
+| 630000 | 电气设备-通用 | 82,859 | 预览版 | - | v0.1 | txt | [630000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/630000.zip) |
+| 640000 | 机械设备-通用 | 224,772 | 预览版 | - | v0.1 | txt | [640000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/640000.zip) |
+| 650000 | 国防军工-通用 | 36,788 | 预览版 | - | v0.1 | txt | [650000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/650000.zip) |
+| 710000 | 计算机-通用 | 120,419 | 预览版 | - | v0.1 | txt | [710000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/710000.zip) |
+| 720000 | 传媒-通用 | 125,247 | 预览版 | - | v0.1 | txt | [720000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/720000.zip) |
+| 730000 | 通信-通用 | 54,267 | 预览版 | - | v0.1 | txt | [730000.zip](https://github.com/limccn/cacl2/blob/master/archive/preview/730000.zip) |
 
 ### 二级行业词库
 |  行业代码  |  一级行业 |  词库名称 | 词条数量 | 当前状态 | 公开时间 | 当前版本 | 格式 | 下载地址 |
