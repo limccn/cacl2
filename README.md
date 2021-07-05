@@ -26,7 +26,7 @@ CaCl2 project aims to build a consistent, complete and accurate industrial lexic
 #### Entries
 |  Date |  All  | Candidate  | Released  | Preview  |
 | :----: | :----: |  :----: | :----: | :----: | 
-| 2021-02-01 | 21,000,000 | 3,000,000 | 3,919,527 | 280,000 |
+| 2021-02-01 | 21,000,000 | 3,000,000 | 5,405,531 | 280,000 |
 
 #### Dictionaries
 |  Date | Class | Industries | Released  | Preview |  Closing  | 
