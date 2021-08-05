@@ -258,6 +258,8 @@ Score for ICWB：
 ### 2.Monthly/Quarterly releases
 | Version |  Circle |  Date | Changelogs |
 | :----: | :----: | :----: | :---- |
+| v0.2.21.06 | monthly | 2021-07-05 | Dictionaries for chemical, ferrous and nonferrous metal added |
+| v0.2.21.05 | monthly | 2021-06-06 | Dictionaries for agriculture, commerce & trade and real estate added |
 | v0.2.21.04 | monthly | 2021-05-07 | ICWB2 test and code added |
 | v0.2.21.03 | monthly | 2021-04-06 | Comparsion test and code added |
 | v0.2.21.02 | monthly | 2021-03-01 | Candidate entries added |
