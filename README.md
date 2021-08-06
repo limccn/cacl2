@@ -2,6 +2,9 @@
 
 
 Read this in other languages: [简体中文](https://github.com/limccn/cacl2/blob/master/README-zh_CN.md),[English](https://github.com/limccn/cacl2/blob/master/README.md)
+
+CaCl2词库和NLP自然语言处理相关技术交流QQ群现已开通，欢迎加入。群号：482671237
+
 ## Introduction
 
 ### What is CaCl2?
@@ -302,8 +305,12 @@ We welcome all the contributions to CaCl2 and appreciate for your feedback very 
 #### 1.1 Fork or Star CaCl2
 
 #### 1.2 Join CaCl2 community
+
+#### 1.3 Join online discussion group, Tencent QQ Group:482671237
+
+
 ### 2.Contributor
-@CaoWJ
+@CaoWJ @ZhouXF
 
 ## FAQ
 

@@ -2,6 +2,8 @@
 
 其他语言版本: [简体中文](https://github.com/limccn/cacl2/blob/master/README-zh_CN.md), [English](https://github.com/limccn/cacl2/blob/master/README.md)
 
+CaCl2词库和NLP自然语言处理相关技术交流QQ群现已开通，欢迎加入。群号：482671237
+
 ## 一、CaCl2 简介
 CaCl2（CaCl2: Chinese Lexicon）中文名称：CA中文语言词库，源于某国内金融行业NLP项目，通过分析既有语料获得海量词条数据，同时按金融行业标准进行词条编目和分类，在自然语言处理NLP过程中，可以用于分词，关键词提取、内容摘要，实体识别等用途。
 
@@ -288,9 +290,10 @@ CaCl2开放的词库，语料，模型等资料沿用[Creative Commons BY-NC-SA 
 ### 1.如何贡献？
 #### 1.1 Fork或Star我们的CaCl2
 #### 1.2 在Github上参与CaCl2社区讨论
+#### 1.3 加入讨论群组，QQ群：482671237
 
 ### 2.贡献者
-@CaoWJ
+@CaoWJ @ZhouXF
 
 ## 八、常见问题
 
