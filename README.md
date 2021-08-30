@@ -29,7 +29,7 @@ CaCl2 project aims to build a consistent, complete and accurate industrial lexic
 #### Entries
 |  Date |  All  | Candidate  | Released  | Preview  |
 | :----: | :----: |  :----: | :----: | :----: | 
-| 2021-02-01 | 21,000,000 | 3,000,000 | 5,480,494 | 280,000 |
+| 2021-02-01 | 21,000,000 | 3,000,000 | 7,355,707 | 280,000 |
 
 #### Dictionaries
 |  Date | Class | Industries | Released  | Preview |  Closing  | 
@@ -261,6 +261,7 @@ Score for ICWB：
 ### 2.Monthly/Quarterly releases
 | Version |  Circle |  Date | Changelogs |
 | :----: | :----: | :----: | :---- |
+| v0.2.21.08 | monthly | 2021-09-01 | Dictionaries for chemical, light-industry manufacture, Food & Beverage and utility added |
 | v0.2.21.07 | monthly | 2021-08-05 | Dictionaries for agriculture,transportation and utility added |
 | v0.2.21.06 | monthly | 2021-07-05 | Dictionaries for chemical, ferrous and nonferrous metal added |
 | v0.2.21.05 | monthly | 2021-06-06 | Dictionaries for agriculture, commerce & trade and real estate added |
