@@ -261,6 +261,7 @@ Score for ICWB：
 ### 2.Monthly/Quarterly releases
 | Version |  Circle |  Date | Changelogs |
 | :----: | :----: | :----: | :---- |
+| v0.2.21.09 | monthly | 2021-10-01 | New secondary industry classification,Excluding computers and food and beverage |
 | v0.2.21.08 | monthly | 2021-09-01 | Dictionaries for chemical, light-industry manufacture, Food & Beverage and utility added |
 | v0.2.21.07 | monthly | 2021-08-05 | Dictionaries for agriculture,transportation and utility added |
 | v0.2.21.06 | monthly | 2021-07-05 | Dictionaries for chemical, ferrous and nonferrous metal added |
