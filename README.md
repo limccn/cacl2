@@ -29,7 +29,7 @@ CaCl2 project aims to build a consistent, complete and accurate industrial lexic
 #### Entries
 |  Date |  All  | Candidate  | Released  | Preview  |
 | :----: | :----: |  :----: | :----: | :----: | 
-| 2021-02-01 | 21,000,000 | 3,000,000 | 7,355,707 | 280,000 |
+| 2021-10-01 | 21,000,000 | 3,000,000 | 11,955,321 | 280,000 |
 
 #### Dictionaries
 |  Date | Class | Industries | Released  | Preview |  Closing  | 
@@ -261,6 +261,7 @@ Score for ICWB：
 ### 2.Monthly/Quarterly releases
 | Version |  Circle |  Date | Changelogs |
 | :----: | :----: | :----: | :---- |
+| v0.2.21.09 | monthly | 2021-10-01 | New secondary industry classification, mainly including computers and food and beverage |
 | v0.2.21.09 | monthly | 2021-10-01 | New secondary industry classification,Excluding computers and food and beverage |
 | v0.2.21.08 | monthly | 2021-09-01 | Dictionaries for chemical, light-industry manufacture, Food & Beverage and utility added |
 | v0.2.21.07 | monthly | 2021-08-05 | Dictionaries for agriculture,transportation and utility added |
@@ -324,6 +325,7 @@ As Contributor, we have no positions in any stocks mentioned. We have no busines
 
 ## Reference
 1.[Industry Classification Standard of SWSI.2014](https://github.com/limccn/cacl2/blob/master/references/申银万国研究院行业分类标准.pdf)
+2.[Industry Classification Standard of CITIC Securities.2020](https://github.com/limccn/cacl2/blob/master/references/中信证券行业分类标准.pdf)
 
 
 
